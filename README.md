@@ -3,6 +3,33 @@
 ## 📌 Introduction
 Streamlit is an open-source Python library that allows you to create interactive web applications for data science and machine learning with minimal effort. No need for front-end experience!
 
+## ⚡ Prerequisites
+
+Before installing Streamlit, ensure you have:
+
+Python installed (Version 3.7 or later). You can check your Python version by running:
+```bash
+python --version
+```
+A virtual environment (recommended for managing dependencies).
+
+🔧 Setting Up a Virtual Environment
+
+Create a virtual environment:
+```bash
+python -m venv myenv
+```
+Activate the environment:
+
+On Windows:
+```bash
+myenv\Scripts\activate
+```
+On macOS/Linux:
+```bash
+source myenv/bin/activate
+```
+
 ## ⚡ Installation
 To install Streamlit, simply run:
 ```bash
@@ -15,6 +42,13 @@ Create a Python script (e.g., app.py) and run:
 streamlit run app.py
 ```
 This will start a local web server and open the application in your browser.
+
+## Validate the installation by running our Hello app:
+
+```bash
+streamlit hello
+```
+
 
 ## 📝 Basic Usage
 Create a simple `app.py` file with the following content:
